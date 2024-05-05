@@ -29,7 +29,6 @@ class ChatMemory(BaseModel):
     max_tokens: Optional[int] = Field(
         None,
         ge=1,
-        le=8192,
         description="The total limit on the number of tokens the assistant can retain across the recent messages.",
     )
 
