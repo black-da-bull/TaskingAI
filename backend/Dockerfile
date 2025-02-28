@@ -1,5 +1,5 @@
 # Use a specific version for reproducibility
-FROM python:3.10.12-slim
+FROM python:3.13.0rc2-slim
 
 # Set environment variables
 ENV PYTHONPATH=/code/ \
