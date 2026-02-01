@@ -2,7 +2,7 @@ Fastapi==0.109.2
 uvicorn==0.23.2
 aiohttp==3.9.4
 PyJWT==2.8.0
-python-multipart==0.0.7
+python-multipart==0.0.22
 openapi_spec_validator==0.7.1
 APScheduler==3.10.4
 python-dotenv==1.0.0
@@ -20,7 +20,7 @@ aiofiles==23.2.1
 pathvalidate==3.2.0
 
 # for record loader
-pypdf==4.1.0
+pypdf==6.6.2
 python-docx==0.8.11
 pymupdf==1.23.3
 unstructured==0.12.6
